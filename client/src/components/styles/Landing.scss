@@ -1,0 +1,112 @@
+.Landing {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    .LeftLanding {
+      flex: 1;
+      width: 100%;
+      padding: 20px 15px;
+      margin: 0;
+      overflow: hidden;
+      background-color: transparent;
+      .LandingHeading {
+        padding: 10px 40px 10px 20px;
+        color: #64797c;
+        text-align: left;
+        letter-spacing: 0.5px;
+        font-weight: auto;
+        line-height: 1.6;
+        font-size: 17px;
+        font-family: Helvetica, sans-serif, "Open Sans";
+      }
+      .userpanel {
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+        .signup {
+          flex: 1;
+          width: 100%;
+          margin: 0;
+          padding: 10px 40px 20px 20px;
+          h3 {
+            color: #3c3f46;
+            font-size: 24px;
+            font-weight: auto;
+            letter-spacing: 0.5px;
+            word-spacing: 2.8px;
+            line-height: 1.5;
+            font-family: Verdana;
+            text-shadow: 1px 1px 30px orangered;
+          }
+          p {
+            color: #292c35;
+            text-align: left;
+            margin-bottom: 50px;
+            font-size: 17px;
+            word-spacing: 2.6px;
+            font-weight: 450;
+            letter-spacing: 0.35px;
+            line-height: 1.6;
+            font-family: Arial, Helvetica, sans-serif, "Open Sans";
+          }
+          .alumnisignup {
+            color: #ffffff;
+            font-size: 17px;
+            background-color: #333300;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 14px 18px 14px 14px;
+            font-family: Arial, Helvetica, sans-serif, "Open Sans";
+            letter-spacing: 0.35px;
+            border-left: 4px solid transparent;
+            border-radius: 2px;
+            &:hover {
+              border-color: #333300;
+              color: #252830;
+              background-color: lightgrey;
+            }
+          }
+          .collegesignup {
+            color: #ffffff;
+            font-size: 17px;
+            background-color: #004040;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 14px 18px 14px 14px;
+            font-family: Arial, Helvetica, sans-serif, "Open Sans";
+            letter-spacing: 0.35px;
+            border-left: 4px solid transparent;
+            border-radius: 2px;
+            &:hover {
+              border-color: #004040;
+              color: #252830;
+              background-color: lightgrey;
+            }
+          }
+        }
+      }
+    }
+    .RightLanding {
+      flex: 1;
+      width: 100%;
+      padding: 20px 15px;
+      margin: 0;
+      overflow: hidden;
+      background-color: transparent;
+      .LandingPic {
+        margin-top: 50px;
+      }
+    }
+  }
+  

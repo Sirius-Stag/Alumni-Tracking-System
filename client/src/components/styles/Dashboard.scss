@@ -1,0 +1,123 @@
+
+.Dashboard {
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #b2dfdb;
+  margin: 0 auto;
+  padding: 20px 25px;
+  border-radius: 5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  h3,
+  p {
+    letter-spacing: 0.5px;
+    word-spacing: 2.8px;
+    text-align: left;
+    line-height: 2;
+  }
+  h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #252830;
+    font-family: verdana;
+  }
+  p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #252830;
+    font-family: sans-serif, "Open Sans", Arial, Helvetica;
+  }
+  
+}
+.DelDash {
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 0;
+  .Deletebtn {
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    color: white;
+    font-size: 16.5px;
+    cursor: pointer;
+    background-color: #3e2723;
+    border-radius: 2px;
+    padding: 11px 15px;
+    &:hover {
+      background-color: #4e342e;
+    }
+  }
+}
+.Skills{
+  display: block;
+  overflow: hidden;
+  background-color: #f3f7f7;
+  margin: 20px auto;
+  padding: 20px 25px;
+  text-align: left;
+  border-radius: 5px;
+  p{
+    letter-spacing: 0.5px;
+    word-spacing: 2.8px;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 18px;
+  font-weight: bold;
+  color: #006666;
+  text-decoration: underline;
+  }
+  .Skill{
+    display: inline-block;
+    padding: 10px 15px 10px 0;
+    margin-right: 5px;
+    background-color: transparent;
+    letter-spacing: 0.5px;
+    word-spacing: 2.8px;
+    line-height: 1.5;
+    font-family: sans-serif, "Open Sans", Arial, Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(73, 72, 72);
+  }
+
+
+}
+.AltDash {
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #f3f7f7;
+  margin: 20px auto;
+  padding: 20px 25px;
+  text-align: center;
+  border-radius: 5px;
+  p {
+    padding: 15px 0;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    word-spacing: 2.8px;
+    line-height: 1.5;
+    font-family: sans-serif, "Open Sans", Arial, Helvetica;
+    font-size: 18px;
+    font-weight: normal;
+    color: #252830;
+  }
+ .Createbtn {
+    border: none;
+    color: white;
+    background-color: #880e4f;
+    border-radius: 2px;
+    padding: 11px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background-color: #ad1457;
+      color: greenyellow;
+    }
+  }
+}

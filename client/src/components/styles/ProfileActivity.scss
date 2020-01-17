@@ -1,0 +1,30 @@
+.ProfileActivity {
+  width: 43%;
+  display: inline-block;
+  padding: 18px 20px 22px 20px;
+  text-align: center;
+  margin: 20px 20px 20px 0;
+  border-radius: 5px;
+  background-color: rgb(235, 235, 235);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  h3,
+    p {
+      letter-spacing: 0.5px;
+      word-spacing: 2.8px;
+      line-height: 2;
+    }
+    h3 {
+      font-size: 22px;
+      font-weight: bold;
+      color: #006666;
+      font-family: verdana;
+    }
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      color: #252830;
+      font-family: sans-serif, "Open Sans", Arial, Helvetica;
+    }
+}

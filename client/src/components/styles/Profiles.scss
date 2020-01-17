@@ -1,0 +1,36 @@
+.AllProfile {
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: transparent;
+  padding: 0 25px;
+  border-radius: 5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  h2,
+  h4,
+  p {
+    letter-spacing: 0.5px;
+    word-spacing: 2.8px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #252830;
+    font-family: verdana;
+  }
+  p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #252830;
+    font-family: sans-serif, "Open Sans", Arial, Helvetica;
+  }
+  .Profiles {
+    margin-top: 20px;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+}

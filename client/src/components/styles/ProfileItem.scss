@@ -1,0 +1,59 @@
+.AlumniCard {
+  width: 43%;
+  display: grid;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  padding: 18px 20px 22px 20px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(251, 251, 251);
+    transition: 0.4s;
+  }
+  .Profilepic{
+      display: block;
+      width: 120px;
+      margin: 10px auto;
+      height: 120px;
+      border-radius: 50%;
+      border: none;
+  }
+  .AlumniDetail {
+    padding: 20px auto;
+    display: block;
+    h3,
+    p {
+      letter-spacing: 0.5px;
+      word-spacing: 2.8px;
+      line-height: 2;
+    }
+    h3 {
+      font-size: 22px;
+      font-weight: bold;
+      color: #252830;
+      font-family: verdana;
+    }
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      color: #252830;
+      font-family: sans-serif, "Open Sans", Arial, Helvetica;
+    }
+    .Viewbtn {
+        border: none;
+        outline: none;
+        margin: 10px 0;
+        color: white;
+        font-size: 16.5px;
+        cursor: pointer;
+        background-color: green;
+        border-radius: 2px;
+        padding: 11px 15px;
+        &:hover {
+          background-color: rgb(24, 189, 24);
+        }
+      }
+  }
+}

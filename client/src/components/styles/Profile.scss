@@ -1,0 +1,26 @@
+.profileblock{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color: #f3f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    h2,h4{    
+
+        letter-spacing: 0.35px;
+        word-spacing: 2.7px;
+        line-height: 1.6;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 23px;
+        color: #006666;
+    }
+    h4{
+        font-weight: normal;
+        font-size: 18px;
+        color: #252830;
+        text-align: center;
+    }
+}
