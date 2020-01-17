@@ -18,10 +18,11 @@ app.use('/api/alumni/posts', require('./routes/api/alumni/posts'));
 
 //Routes for Colleges
 app.use('/api/college/colleges', require('./routes/api/college/colleges'));
-// app.use("/college/login", require("./routes/api/college/login"));
-// app.use("/college/register", require("./routes/api/college/register"));
-// app.use('/college/authcollege', require('./routes/api/college/authcollege'));
-// app.use('/college/profile', require('./routes/api/college/collegeprofile'));
+// app.use("/api/college/login", require("./routes/api/college/login"));
+app.use("/api/college/register", require("./routes/api/college/register"));
+app.use('/api/college/authcollege', require('./routes/api/college/authcollege'));
+// app.use('/api/college/authcollege', require('./routes/api/college/login'));
+app.use('/api/college/profile', require('./routes/api/college/collegeprofile'));
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {

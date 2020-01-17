@@ -62,7 +62,7 @@ router.get('/', authcollege, async (req, res) => {
           }
         };
   
-        await jwt.sign(
+         jwt.sign(
           payload,
           config.get('jwtSecret'),
           { expiresIn: 360000 },
