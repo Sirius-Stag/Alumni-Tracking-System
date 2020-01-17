@@ -17,7 +17,7 @@ app.use('/api/alumni/profile', require('./routes/api/alumni/profile'));
 app.use('/api/alumni/posts', require('./routes/api/alumni/posts'));
 
 //Routes for Colleges
-// app.use('/college/colleges', require('./routes/api/college/colleges'));
+app.use('/api/college/colleges', require('./routes/api/college/colleges'));
 // app.use("/college/login", require("./routes/api/college/login"));
 // app.use("/college/register", require("./routes/api/college/register"));
 // app.use('/college/authcollege', require('./routes/api/college/authcollege'));
