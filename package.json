@@ -1,7 +1,7 @@
 {
-  "name": "palmuni",
+  "name": "palumni",
   "version": "1.0.0",
-  "description": "Social network for developers",
+  "description": "Social network for alumni",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -10,7 +10,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Brad Traversy",
+  "author": "devstar",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
