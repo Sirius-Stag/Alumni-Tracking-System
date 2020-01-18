@@ -3,7 +3,7 @@ import { Route, Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-const CollegeRoute = ({
+const CollegeRoute= ({
   component: Component,
   authcollege: { isAuthenticated, loading },
   ...rest
@@ -20,7 +20,7 @@ const CollegeRoute = ({
   />
 );
 
-PrivateRoute.propTypes = {
+CollegeRoute.propTypes = {
   authcollege: PropTypes.object.isRequired
 };
 

@@ -28,7 +28,7 @@ export const getCurrentProfile = () => async dispatch => {
 
 // Get all profiles
 export const getProfiles = () => async dispatch => {
-  dispatch({ type: cOLLEGE_CLEAR_PROFILE });
+  dispatch({ type: COLLEGE_CLEAR_PROFILE });
 
   try {
     const res = await axios.get('/api/college/profile');
@@ -86,7 +86,7 @@ export const createProfile = (
     dispatch(setAlert(edit ? 'Profile Updated' : 'Profile Created', 'success'));
 
     if (!edit) {
-      history.push('/dashboard');
+      history.push('/college/dashboard');
     }
   } catch (err) {
     const errors = err.response.data.errors;

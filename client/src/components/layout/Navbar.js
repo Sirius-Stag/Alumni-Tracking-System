@@ -8,20 +8,15 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const authLinks = (
     <ul>
       <li>
-        <Link to='/alumni/profiles'>Developers</Link>
-      </li>
-      <li>
-        <Link to='/alumni/posts'>Posts</Link>
+        <Link to='/alumni/recommended'>Recommended Users</Link>
       </li>
       <li>
         <Link to='/alumni/dashboard'>
-          <i className='fas fa-user' />{' '}
           <span className='hide-sm'>Dashboard</span>
         </Link>
       </li>
       <li>
         <a onClick={logout} href='#!'>
-          <i className='fas fa-sign-out-alt' />{' '}
           <span className='hide-sm'>Logout</span>
         </a>
       </li>
@@ -30,10 +25,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
 
   const guestLinks = (
     <ul>
-      <li>
-        <Link to='/alumni/profiles'>Developers</Link>
-      </li>
-      <li>
+       <li>
         <Link to='/alumni/register'>Register</Link>
       </li>
       <li>
@@ -43,10 +35,10 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   );
 
   return (
-    <nav className='navbar bg-dark'>
+    <nav style={{backgroundColor: '#006666', padding: '10px 30px'}} className='navbar bg-dark'>
       <h1>
         <Link to='/'>
-          <i className='fas fa-code' /> DevConnector
+        PALUMNI
         </Link>
       </h1>
       {!loading && (

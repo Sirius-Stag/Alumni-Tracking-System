@@ -1,7 +1,7 @@
 {
   "name": "palumni",
   "version": "1.0.0",
-  "description": "Social network for alumni",
+  "description": "Alumni Tracking App",
   "main": "server.js",
   "scripts": {
     "start": "node server",

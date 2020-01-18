@@ -1,8 +1,8 @@
 .AlumniCard {
   width: 43%;
-  display: grid;
-  grid-row-gap: 20px;
-  grid-column-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 20px 10px 0;
   padding: 18px 20px 22px 20px;
   text-align: center;
   border-radius: 5px;

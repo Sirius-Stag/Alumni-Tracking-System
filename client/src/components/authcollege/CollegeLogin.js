@@ -20,6 +20,8 @@ const CollegeLogin = ({ collegelogin, isAuthenticated }) => {
     e.preventDefault();
     collegelogin(email, password);
   };
+ 
+// redirect if login
 
   if (isAuthenticated) {
     return <Redirect to="/college/dashboard" />;
@@ -97,9 +99,9 @@ CollegeLogin.propTypes = {
   collegelogin: PropTypes.func.isRequired,
   isAuthenticated: PropTypes.bool
 };
-
+// here we convert state.auth.isAuthenticated to state.authcollege.isAuthenticated
 const mapStateToProps = state => ({
-  isAuthenticated: state.auth.isAuthenticated
+  isAuthenticated: state.authcollege.isAuthenticated
 });
 
 export default connect(mapStateToProps, { collegelogin })(CollegeLogin);

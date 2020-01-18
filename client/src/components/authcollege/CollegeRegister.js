@@ -29,6 +29,8 @@ const CollegeRegister = ({ setAlert, collegeregister, isAuthenticated }) => {
     }
   };
 
+  // if authticatd it will redirect to dashboard
+
   if (isAuthenticated) {
     return <Redirect to="/college/dashboard" />;
   }

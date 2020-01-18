@@ -8,6 +8,8 @@ import CollegeLogin from '../authcollege/CollegeLogin';
 
 import Alert from '../layout/Alert';
 import Dashboard from '../dashboard/Dashboard';
+import CollegeDashboard from '../dashboard/CollegeDashboard';
+import CollegeCreateProfile from '../profile-forms/CollegeCreateProfile';
 import CreateProfile from '../profile-forms/CreateProfile';
 import EditProfile from '../profile-forms/EditProfile';
 import AddExperience from '../profile-forms/AddExperience';
@@ -19,7 +21,7 @@ import Posts from '../posts/Posts';
 import Post from '../post/Post';
 import NotFound from '../layout/NotFound';
 import PrivateRoute from '../routing/PrivateRoute';
-//import CollegeRoute from '../routing/CollegeRoute';
+import CollegeRoute from '../routing/CollegeRoute';
 
 const Routes = () => {
   return (
@@ -36,6 +38,8 @@ const Routes = () => {
 
 
         <PrivateRoute exact path='/alumni/dashboard' component={Dashboard} />
+        <CollegeRoute exact path='/college/dashboard' component={CollegeDashboard} />
+        <CollegeRoute exact path='/college/create-profile' component={CollegeCreateProfile} />
         <PrivateRoute exact path='/alumni/create-profile' component={CreateProfile} />
         <PrivateRoute exact path='/alumni/edit-profile' component={EditProfile} />
         <PrivateRoute exact path='/alumni/add-experience' component={AddExperience} />
