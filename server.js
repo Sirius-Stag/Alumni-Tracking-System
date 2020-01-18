@@ -23,6 +23,7 @@ app.use("/api/college/register", require("./routes/api/college/register"));
 app.use('/api/college/authcollege', require('./routes/api/college/authcollege'));
 // app.use('/api/college/authcollege', require('./routes/api/college/login'));
 app.use('/api/college/profile', require('./routes/api/college/collegeprofile'));
+app.use('/api/getRecommendation', require('./routes/api/recommended/getRecommended'));
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {

@@ -7,6 +7,7 @@ import CollegeRegister from '../authcollege/CollegeRegister';
 import CollegeLogin from '../authcollege/CollegeLogin';
 
 import Alert from '../layout/Alert';
+import Recommended from '../dashboard/Recommended'
 import Dashboard from '../dashboard/Dashboard';
 import CollegeDashboard from '../dashboard/CollegeDashboard';
 import CollegeCreateProfile from '../profile-forms/CollegeCreateProfile';
@@ -36,7 +37,8 @@ const Routes = () => {
         <Route exact path='/college/register' component={CollegeRegister} />
         <Route exact path='/college/login' component={CollegeLogin} />
 
-
+        
+        <PrivateRoute exact path='/alumni/recommended' component={Recommended} />
         <PrivateRoute exact path='/alumni/dashboard' component={Dashboard} />
         <CollegeRoute exact path='/college/dashboard' component={CollegeDashboard} />
         <CollegeRoute exact path='/college/create-profile' component={CollegeCreateProfile} />

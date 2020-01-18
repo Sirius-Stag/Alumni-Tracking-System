@@ -25,7 +25,7 @@ const CollegeDashboard = ({
         <div className="Dashboard">
           <h3>College Profile</h3>
           <p>Welcome, <span style={{ fontSize: '18px', fontWeight: 'bold', color: '#006666' }}>{college && college.name}</span></p>
-          <Link to="/alumni/profiles" style={{fontSize: '18px', fontWeight: 'bold', padding: '20px', backgroundColor: 'yellow', color: 'black'}}>Dashboard</Link>
+          <Link to="/alumni/profiles" style={{fontSize: '18px', fontWeight: 'bold', padding: '20px', backgroundColor: 'yellow', color: 'black', margin: '40px 0'}}>Dashboard</Link>
           {profile !== null ?
             <div>
               <p>Address: {profile.address}</p>
